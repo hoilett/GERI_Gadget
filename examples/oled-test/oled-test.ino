@@ -53,9 +53,10 @@ void setup()   {
 
 void loop()
 {
-  if(digitalRead(5))
+  if(digitalRead(7))
   {
     screenNumber++;
+    delay(250);
     if(screenNumber > 4)
     {
       screenNumber = 0;
@@ -73,6 +74,7 @@ void loop()
   }
   if(screenNumber == 1)
   {
+    display.clearDisplay();
     display.drawPixel(0,0,WHITE);
     display.drawPixel(10,10,WHITE);
     display.drawPixel(20,20,WHITE);
