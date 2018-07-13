@@ -98,7 +98,7 @@ void loop()
   {
     screenNumber++;
     delay(250);
-    if(screenNumber > 4)
+    if(screenNumber > 3)
     {
       screenNumber = 0;
     }
@@ -130,13 +130,13 @@ void loop()
   }
   if(screenNumber == 2)
   {
-    if(axis == 0)
+    if(xaxis == 0)
     {
       display.clearDisplay();
     }
     int photo = analogRead(A4);
     photo = map(photo, 0, 1023, 64, 0);
-    display.drawPixel(photo,xaxis, WHITE); 
+    display.drawPixel(xaxis,photo, WHITE); 
     display.display();
     
     xaxis++;

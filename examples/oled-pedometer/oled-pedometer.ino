@@ -73,7 +73,7 @@ void loop()
   {
     screenNumber++;
     delay(250);
-    if(screenNumber > 4)
+    if(screenNumber > 3)
     {
       screenNumber = 0;
     }
