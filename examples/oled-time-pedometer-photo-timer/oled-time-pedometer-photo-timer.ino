@@ -179,7 +179,7 @@ void loop()
     display.setCursor(0,0);
     display.print(stopwatch_minutes);
     display.print(":");
-    if(stopwatch_seconds < 0)
+    if(stopwatch_seconds < 10)
     {
       display.print("0");
       display.println(stopwatch_seconds);
