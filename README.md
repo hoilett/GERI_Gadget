@@ -1,4 +1,4 @@
-# GERI_Gadget (under development)
+# GERI_Gadget (under development so bookmark this page and stay tuned!)
 
 <p align="center">
   <img src="https://github.com/hoilett/GERI_Gadget/blob/master/images/RevA/img01-smaller-02.jpg?raw=true" alt="GERI Gadget Rev A"/>
