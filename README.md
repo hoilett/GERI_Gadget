@@ -3,7 +3,7 @@ This is a simple smartwatch that I made for students taking my Biomedical Instru
 
 This section is still underdevelopment. I will be filling it out over the next few weeks.
 
-## 1. Assemble the printed circuit board
+## 1. Assembling the printed circuit board
 
 ## 2. Booloading the ATSAMD21
 
