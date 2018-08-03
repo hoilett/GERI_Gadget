@@ -8,5 +8,5 @@ This section is still underdevelopment. I will be filling it out over the next f
 ## 2. Booloading the ATSAMD21
 
 ## 3. Programming the Microcontroller
-###### A. Installing the board definitions for SparkFun's SAMD21 Dev Breakout Board
+**###### A. Installing the board definitions for SparkFun's SAMD21 Dev Breakout Board**
 ###### B. Installing the proper code libraries.
